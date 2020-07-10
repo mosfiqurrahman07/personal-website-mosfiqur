@@ -4,7 +4,9 @@ body{
 }
 h1{
     font-size: 40px;
-    font-weight: 500;
+}
+h2{
+    font-size: 35px;
 }
 p{
     color: dimgrey;
@@ -17,13 +19,11 @@ p{
 .btn-highlight{
     text-decoration: none;
     padding: 10px 35px;
-    background: rgb(227,120,151);
     background: linear-gradient(90deg, rgba(227,120,151,1) 0%, rgba(236,76,122,1) 35%, rgba(230,29,86,1) 100%);
     color: white;
     border-radius: 5px;
 }
 .btn-highlight:hover{
-    background: rgb(227,120,151);
     background: linear-gradient(261deg, rgba(227,120,151,1) 0%, rgba(236,76,122,1) 35%, rgba(230,29,86,1) 100%);
 }
 .half-width{
@@ -34,7 +34,7 @@ p{
     padding-top: 7%;
 }
 .half-width img{
-    width: 100%;
+    width: 90%;
 }
 section{
     height: 800px;
@@ -50,5 +50,61 @@ section{
     background-size: cover;
 }
 .top-padding{
-    padding-top: 14%;
+    padding-top: 200px;
+}
+#latest-work-bg{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#latest-work-bg h2{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.latest-work-img{
+    width: 85%;
+    margin: auto;
+}
+.latest-work-img img{
+    width: 25%;
+    padding: 0 4%;
+}
+.latest-work{
+   padding-top: 150px;
+}
+#my-service{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+.footer-bg{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.padding-buttom{
+    padding-bottom: 100px;
+}
+.margin-buttom{
+    margin-bottom: 100px;
+}
+.email-box{
+    width: 50%;
+    margin: auto;
+    padding: 3%;
+    background: linear-gradient(90deg, rgba(227,120,151,1) 0%, rgba(236,76,122,1) 35%, rgba(230,29,86,1) 100%);
+    border-radius: 15px;
+}
+.email-box:hover{
+    background: linear-gradient(261deg, rgba(227,120,151,1) 0%, rgba(236,76,122,1) 35%, rgba(230,29,86,1) 100%);
+}
+.email-box p, h4{
+    color: white;
+}
+footer p{
+    text-align: center;
 }
