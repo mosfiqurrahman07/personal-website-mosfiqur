@@ -76,10 +76,22 @@ section{
     width: 80%;
     margin: auto;
 }
-
-
-
-
+#service{
+    width: 70%;
+    margin: auto;
+}
+.text-center{
+    text-align: center;
+}
+.item{
+    width: 40%;
+    float: left;
+    padding: 30px;
+    background-color: #f9f9f9;
+}
+.design{
+    margin-right: 8%;
+}
 .footer-bg{
     background-image: url("images/footer-bg.png");
     background-repeat: no-repeat;
